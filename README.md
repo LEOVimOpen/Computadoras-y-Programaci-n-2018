@@ -4,6 +4,6 @@ Nombre: Esaú Zepeta Castillo
 
 Usuario: LEOVimOpen 
 
-Correo: lalala45654@gmail.com 
+Correo: stephaniestrella15@gmail.com 
 
 Asignatura: Computadoras y Programacion 
