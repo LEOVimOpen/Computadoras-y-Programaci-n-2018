@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    int p=0;
+    float q=0;
+    float r=0;
+    system("clear");
+    printf("Comparar tres números \n\n");
+    printf("Ingresa en primer número  (debe ser de tipo entero)\n");
+    scanf("%i",&p);
+    printf("Escribe el segundo número \n");
+    scanf("%f",&q);
+    printf("Escribe el segundo número \n");
+    scanf("%f",&r);
+    if (p<(q||r))
+        printf("El primer número es menor");
+    else
+        if(q<(p||r))
+            printf("El segundo número es menor");
+        else
+            if(r<(q||p))
+                printf("El tercer número es menor");
+            else
+    if (p>(q||r))
+        printf("El primer número es mayor");
+    else
+        if(q>(p||r))
+            printf("El segundo número es mayor");
+                    else
+            if(r>(q||p))
+                printf("El tercer número es mayor");
+            else
+    if (p=q)
+        printf("El número  %f es igual a %f",p,q);
+}
