@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main ()
+{
+    int option,a,b;
+    printf("Este programa suma o resta dos números\n");
+    printf("Introduse el primer número");
+    scanf("%d",&a);
+    printf("Introduse el segundo número");
+    scanf("%d",&b);
+    do{
+        printf ("¿Qué operacion quieres realizar con estos números (escoge una opción)?\n");
+        printf ("\t1.- Suma\n");
+        printf ("\t2.- Resta\n");
+        printf ("\t3.- Salir\n");
+        do {
+        printf ("INTRO\t: ");
+            scanf ("%d", &option);
+                printf ("Adios");
+        }
+        while ( option < 1 || option > 3 );
+        switch ( option ){
+            case 1: printf(a+b);
+                    break;
+            case 2: printf(a-b);
+                    break;
+            return 0;
+        }
+            }
+        while ( option != 3 );
+}
